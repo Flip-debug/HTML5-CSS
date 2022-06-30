@@ -1,0 +1,49 @@
+    @charset "UTF-8";
+    body{
+    background-color: rgb(221, 183, 134);
+    }
+    h2#HTML{
+    background-color: rgb(255, 123, 0);
+    }
+    h1{ text-align: center;
+        font:bolder 2.5em Georgia, Times, serif;
+        color: antiquewhite;
+        background-color: #5c3f19;
+    }
+    h2{
+        text-align: left;
+        font:bolder 2em Georgia, Times, serif;
+        color: antiquewhite;
+        background-color: blue  
+    }
+    h3{
+        text-align: left;
+        font:bolder 1.5em Georgia, Times, serif;
+        color: #251908;
+        
+    }
+    p{
+        text-align: justify;
+        font: normal 1em arial,sans-serif;
+    }
+    .html-basic{
+        background-color: rgb(245, 159, 78);
+    }
+
+    .html-inter{
+        background-color: rgb(241, 129, 55);
+    }
+
+    .html-avan{
+        background-color: hsl(24, 79%, 45%);
+    }
+    .css-basic{
+        background-color: rgb(167, 167, 247)
+    }
+    .css-inter{
+        background-color: rgb(97, 97, 230)
+    }
+
+    .css-avan{
+        background-color: rgb(40, 40, 221)
+    }

@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(0, 0, 0);
+    font-family: monospace;
+    color: #00fff2;
+    
+}
+
+.title {color:#1eff00; font-family: monospace;
+}
+
+hr {
+    color: #1eff00;
+}
+p {
+    vertical-align:middle
+}

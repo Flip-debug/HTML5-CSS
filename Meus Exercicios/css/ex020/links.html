@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalizando Links</title>
+    <style>
+
+        body{
+            font-family: sans-serif;
+        }
+        a{
+            font-size: 1.5em;
+            font-weight: bold;
+            text-decoration: none;
+            color:rgb(98, 98, 245)
+        }
+        a:visited{
+            color:darkblue
+        }
+        a:hover{
+            color: rgb(126, 11, 59);
+            text-decoration: underline;
+        }
+        a:active{
+            color: rgb(0, 255, 76);
+        }
+        a::before{
+           content: '➭';
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://www.google.com" target="_blank">Google</a></li>
+        <li><a href="https://wikipedia.com" target="_blank">Wikipedia</a></li>
+        <li><a href="https://www.reddit.com" target="_blank">reddit</a></li>
+    </ul>
+</body>
+</html>

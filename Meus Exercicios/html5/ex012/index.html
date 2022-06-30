@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vídeos com HTML5</title>
+  </head>
+  <body>
+    <h1>Inserindo vídeos no site</h1>
+
+    <h2>Vídeos hospedados localmente</h2>
+
+    <p>Este vídeo está hospedado no meu próprio servidor.</p>
+    <!-- Modo mais simples 
+    <video src="midia/meu-video.mp4" width="500" controls></video>-->
+<video controls width="500" poster="imagens/limoes-capa.png">
+    <source src="midia/meu-video.mp4" type="video/mp4">
+    <source src="midia/meu-video.webm" type="video/mp4">
+    <source src="midia/meu-video.ogv" type="video/ogg">
+    <p>Seu navegador não suporta reprodução de videos</p>
+    <a href="midia/meu-video.mp4"> Clique aqui para baixar o arquivo .mp4</a>
+</video>
+
+<h2>Vídeos incorporados</h2>
+
+<p>Já estes aqui foram tirados do YouTube e Vimeo</p>
+
+<p>A Dog Fight By Zimaut Animation </p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vJGvSbHmeco" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p>Consciousness and Creation: The Neuroscience of Perception <br> By Future Of StoryTelling</p>
+
+<iframe src="https://player.vimeo.com/video/289879647?h=0acada5c39" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+  
+
+</body>
+</html>
