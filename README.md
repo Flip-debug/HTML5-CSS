@@ -1,9 +1,9 @@
 # html5_css3
- <h2>Exercícios de html5 e css3</h2>
-  
+
   <table>
+ <caption>Exercícios de html5 e css3</caption>
     <tr>
-      <th>Html5</th>
+      <th>HTML5</th>
       <th>CSS3</th>
     </tr>
     <tr>
