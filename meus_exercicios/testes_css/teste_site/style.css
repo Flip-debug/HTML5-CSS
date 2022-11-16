@@ -21,13 +21,19 @@ nav>a{
 }
 main{
     background-color: rgb(255, 255, 255);
-    margin: 2em;
+    margin: 1em;
+    position: relative;
+}
+.flex-container{
+    display: flex;
+    flex-direction:row;
 }
 article{
     background-color: rgb(214, 164, 207);
-    max-width:1000px; 
+    max-width:auto; 
     width: auto;
-    margin: auto;
+    margin-right: 1em;
+    padding: 1em;
 }
 picture>img{
     width: 100%;
@@ -49,13 +55,12 @@ a{
 a:hover{
     text-decoration: underline;
 }
-
-
 aside{
  background-color: rgb(163, 163, 221); 
- width: auto;  
- max-width: 1000px;
- margin: auto;
+ padding: 1em;
+}
+aside>ul{
+    padding:1em;
 }
 footer{
     padding: 0.5em;
