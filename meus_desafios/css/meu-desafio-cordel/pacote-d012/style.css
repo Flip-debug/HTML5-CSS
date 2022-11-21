@@ -1,6 +1,13 @@
 @charset "UTF-8";
+
 @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+:root{
+    --fonte1:'Special Elite', cursive;
+    --fonte2:'Passion One', cursive;
+}
 *{
     padding: 0%;
     margin: 0%;
@@ -18,6 +25,8 @@ header{
 }
 header>h1{
     font-variant: small-caps;
+    font-family: var(--fonte2);
+    font-size: 4em;
 }
 a{
     color: aliceblue;
@@ -29,10 +38,13 @@ a:hover{
 section{
     padding: 10vh 30px;
     line-height: 2em;
+    font-size: 3.5vw;
+    
 }
 section.normal{
     background-color: aliceblue;
     color: black;
+    
 }
 
 section.imagem{
@@ -40,10 +52,13 @@ section.imagem{
     background-color: rgb(112, 112, 112);
 }
 section.imagem >p{
-    width: 400px;
+    display: inline-block;
+    padding: 1em;
     background-color: rgba(0, 0, 0, 0.267);
 }
-
+p{
+    font-family: var(--fonte1);
+}
 footer{
     padding: 10px;
     background-color: black;
