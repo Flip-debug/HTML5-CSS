@@ -1,19 +1,15 @@
-    @charset "UTF-8";
+@charset "UTF-8";
 
     *{
-        border: 0px;
-        padding: 0px;
-        margin: 0px;
         font-family: Arial, Helvetica, sans-serif;
     }
     header{
         background-color: rgb(255, 255, 255);
-        padding: 10px 0px;
     }
     nav{
         background-color: rgb(0, 0, 0);
+        border-radius: 10px;
         padding: 10px 10px;
-        box-shadow: -5px 5px 15px rgba(0, 0, 0, 0.699);
     }
     nav>a{
         color: aliceblue;
@@ -23,32 +19,29 @@
     main{
         background-color: rgb(255, 255, 255);
         margin: 1em;
-        position: relative;
     }
     .flex-container{
         display: flex;
         flex-direction:row;
     }
     article{
-        max-width:auto; 
-        width: auto;
-        margin-right: 1em;
-        padding: 1em;
-        border: solid 1px black;
+        border: black solid 1px; 
         border-radius: 15px;
-        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.61);
+        margin-right: 1em; 
+        padding: 1em;
     }
     picture>img{
         width: 100%;
     }
     h1,h2{
-        padding: 1em;
         font-family: Arial, Helvetica, sans-serif;
+        padding: 1em;
     }
     .maintitle{
+        background-color:blueviolet;
         font-size: 2em;
         text-align: center;
-        background-color:blueviolet;
+        
     }
     p{
         text-align: justify;
@@ -60,20 +53,25 @@
         text-decoration: underline;
     }
     aside{
-        padding: 1em;
-        border: solid black 1px;
-        border-radius: 10px;
         background-color: rgba(157, 168, 189, 0.452);
-        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.61); 
-    
+        border: solid black 1px;
+        border-radius: 10px; 
+        height: 300px;
+        padding: 1em;
+        
     }
-    aside>ul{
-        padding:1em;
+    .sidebar{
+       display: flex; 
+       flex-direction: column;
+    }
+    .container{
+        align-self: center;
+        display: flex;
+        justify-content:space-between;
     }
     footer{
-        padding: 0.5em;
         background-color: rgb(0, 0, 0);
-        box-shadow: -5px -5px 15px rgba(0, 0, 0, 0.699);
+        padding: 0.5em;
     }
     footer>p{
         color: aliceblue;
