@@ -3,10 +3,20 @@
     *{
         font-family: Arial, Helvetica, sans-serif;
     }
+    .main-grid{
+        display: grid;
+        grid-template-areas: 
+        "h h"
+        "m m"
+        "f f";
+    }
     header{
         background-color: rgb(255, 255, 255);
+        grid-area: h;
     }
     nav{
+        display: flex;
+        justify-content: center;
         background-color: rgb(0, 0, 0);
         border-radius: 10px;
         padding: 10px 10px;
@@ -18,31 +28,30 @@
         text-decoration: none;
     }
     main{
+        display: flex;
+        flex-direction: row;
         background-color: rgb(255, 255, 255);
         margin: 1em;
     }
-    .flex-container{
-        display: flex;
-        flex-direction:row;
-    }
+    
     article{
         border: black solid 1px; 
         border-radius: 15px;
         margin-right: 1em; 
         padding: 1em;
+        grid-area: m;
     }
     picture>img{
         width: 100%;
     }
     h1,h2{
         font-family: Arial, Helvetica, sans-serif;
-        padding: 1em;
+        margin:0;
     }
     .maintitle{
         background-color:blueviolet;
         font-size: 2em;
-        text-align: center;
-        
+        text-align: center; 
     }
     p{
         text-align: justify;
@@ -59,20 +68,16 @@
         border-radius: 10px; 
         height: 300px;
         padding: 1em;
-        
+        margin:1em 1em 0 0;
     }
-    .sidebar{
-       display: flex; 
-       flex-direction: column;
-    }
-    .container{
-        align-self: center;
-        display: flex;
-        justify-content:space-between;
+    .asidelinks{
+        display:grid;
+        justify-content: center;
     }
     footer{
         background-color: rgb(0, 0, 0);
         padding: 0.5em;
+        grid-area: f;
     }
     footer>p{
         color: aliceblue;
