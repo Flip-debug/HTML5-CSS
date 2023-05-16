@@ -1,0 +1,30 @@
+html, body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background: rgb(43, 13, 68);
+}
+main{
+    background: rgb(252, 252, 252);
+    display: grid;
+    grid-template-areas: ;
+    
+}
+header{
+    
+}
+img{
+    width: 100%;
+}
+nav{
+    background: rgb(210, 255, 7);
+}
+aside{
+    background: rgb(255, 4, 4);
+}
+article{
+    background: rgb(10, 243, 69);
+}
+footer{
+    background: rgb(0, 0, 0);
+}
