@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-image: url(images/starwall.jg);
+    background-color: rgb(102, 63, 102);
+    font-family: 'Roboto', sans-serif;
+    margin: 0.5em;
+}
+p{
+    font-size: 15pt;
+    color: aliceblue;
+    margin-bottom: 8px;
+}
+header{
+    padding: 1em;
+    margin: auto;
+    min-width: 100px;
+    max-width: 600px;
+}
+#title{
+    color: aliceblue;
+    text-align: center;
+    font-size: 26pt;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+#description{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-style: italic;
+    font-size: 12pt;
+}
+#survey-form{
+    padding: 2em;
+    margin: auto;
+    min-width: 100px;
+    max-width: 600px;
+    background-color: rgb(46, 11, 46);
+    border-radius: 15px;
+    box-shadow: 3px 3px 25px rgba(0, 0, 0, 0.404);
+}
+#survey-element{
+    margin-bottom: 1.5em;
+}
+#name, #email,#number,#dropdown{
+    border-radius: 5px;
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 35px;
+    margin-top: 3px;
+}
+#checkbox{
+    color: aliceblue;
+}
+div input{
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+#radiobt{
+    color: aliceblue;
+}
+#submit{
+    margin-top: 1em ;
+    font-size: 15pt;
+    font-weight: 3px;
+    width: 100%;
+    height: 2.5em;
+    color:  rgba(0, 0, 0, 0.3);
+    background-color: rgba(233, 209, 255, 0.212);
+    border-radius: 8px;
+    border: 0;
+    box-shadow: 3px 3px 25px rgba(0, 0, 0, 0.404);
+}
+#submit:hover{
+    background-color: rgb(56, 209, 68);
+    border:1px solid rgb(35, 134, 43);
+    color:  rgb(0, 114, 9);
+}
+#comment{
+  max-width: 100%;
+  min-width: 100%;
+  min-height: 200px;
+}
+
+

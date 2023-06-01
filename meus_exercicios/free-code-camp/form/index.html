@@ -4,21 +4,21 @@
   <head>
 
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Survey Form</title>
   </head>
 
   <body>
 
-    <h1 id="title">
-
-      Free Code Camp Survey Form 
-
-    </h1>
-
-    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <header>
+      <h1 id="title">
+        Free Code Camp Survey Form
+      </h1>
+      <p id="description">Thank you for taking the time to help us improve the platform</p>
+    </header>
 
     <form id="survey-form">
-      <div>
+      <div id="survey-element">
 
         <label id="name-label"for="name"><p>Name</p></label>
 
@@ -26,7 +26,7 @@
 
       </div>
 
-      <div>
+      <div id="survey-element">
 
         <label id="email-label"for="email"><p>Email</p></label>
 
@@ -34,15 +34,15 @@
 
       </div>
 
-      <div>
+      <div id="survey-element">
 
-        <label id="number-label" for="number-label"><p>Age (optional)</p></label>
+        <label id="number-label" for="number-label"><p>Age <small>(optional)</small></p></label>
 
         <input type="number" name="number" id="number" min="10" max="99" step="1" placeholder="10">
 
       </div>
       
-      <div>
+      <div id="survey-element">
 
         <label placeholder="Select current role">
 
@@ -52,7 +52,7 @@
         
         <select id="dropdown">
 
-          <option disable="" selected="" value="">Select an option...</options>
+          <option disable="" selected="" value="">Select current role</options>
 
           <option value="Student">Student</option>
 
@@ -68,7 +68,7 @@
 
       </div>
 
-      <div>
+      <div id="survey-element">
 
         <p>Would you recomend freeCodeCamp to a friend?</p>
 
@@ -86,7 +86,7 @@
 
       </div>
 
-      <div>
+      <div id="survey-element">
         
         <label placeholder="Select an option">
 
@@ -94,12 +94,26 @@
 
         </label>
 
-        <input>
+        <select id="dropdown">
+
+          <option disable="" selected="" value="">Select an option...</options>
+
+          <option value="Challenges">Challenges</option>
+
+          <option value="Projects">Projects</option>
+
+          <option value=">Community">Community</option>
+
+          <option value="Open Source">Open Source</option>
+
+          <option value="Other">Other</option>
+
+        </select>
 
       </div>
 
-      <div>
-        <p>What would you like to see improved? (Check all that apply)</p>
+      <div id="survey-element">
+        <p>What would you like to see improved? <small>(Check all that apply)</small></p>
         
         <input type="checkbox" name="checkbox" value="checkbox" id="checkbox">
 
@@ -147,7 +161,7 @@
 
       </div>
 
-      <div>
+      <div id="survey-element">
 
         <p>Any comments or suggestions?</p>
 
